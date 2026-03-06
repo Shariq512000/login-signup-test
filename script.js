@@ -51,6 +51,7 @@ function loginUser(){
 
         if(currentUser.password == userPassword){
             // alert("User Logedin")
+            window.location.pathname = "/login-signup-test/dashboard.html"
         }else{
             alert("Password did not matched")
         }
@@ -58,4 +59,5 @@ function loginUser(){
     }else{
         alert("Account Not Register with this email")
     }
+
 }
